@@ -1,6 +1,6 @@
 /*
 O objetivo não é abusar desse recurso, mas sim facilitar a vida do usuário...
-Por esse motivo adicionei um limite (30) através do for (estou aprendendo a usar esse recurso)
+Por esse motivo adicionei um limite através do for (estou aprendendo a usar esse recurso)
 Assim como a função setTimeout é para não ser penalisado pelo sistema.
 */
 var contador = 0

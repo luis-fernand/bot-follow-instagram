@@ -1,7 +1,7 @@
 let contador = 0
 let buttons = document.querySelectorAll('.L3NKy')
-
-buttons.forEach((botao, index) => {
+do {
+    buttons.forEach((botao, index) => {
     setTimeout(() => {
         if(!botao.classList.contains('_8A5w5')){
             botao.click()
@@ -10,5 +10,6 @@ buttons.forEach((botao, index) => {
         } else {
             console.log('Você já segue essa pessoa.')
         }
-    }, index * (Math.floor(Math.random() * 5000) + 1000)); 
-})
+    }, index * (Math.floor(Math.random() * 20000) + 1000)); 
+    }) 
+} while (contador < 3)
